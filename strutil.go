@@ -9,3 +9,8 @@ func Reverse(s string) string {
 	}
 	return string(runes)
 }
+
+// SymbolCount returns the number of symbols in the given string.
+func SymbolCount(s string) int {
+	return len([]rune(s))
+}
